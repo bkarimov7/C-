@@ -51,7 +51,40 @@ Console.WriteLine("Имя: {0}, Возврат: {1}, Рост: {2}", name, age, 
 
 // *** Консольный ввод
 
+/*
 Console.WriteLine("Введите своё имя: ");
-string name = Console.ReadLine();
+string? name = Console.ReadLine();
 Console.WriteLine("Привет " + name + "!");
 Console.WriteLine($"Привет {name}!");
+*/
+
+// Конвертация строки
+
+/*
+int a, b;
+Console.WriteLine("Введите число 1");
+a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число 2");
+b = Convert.ToInt32(Console.ReadLine());
+int result = a + b;
+Console.WriteLine("Сумма чисел = " + result);
+Console.WriteLine($"Сумма чисел = {result}");
+*/
+
+/*
+Console.WriteLine("Введите имя: ");
+string? name = Console.ReadLine();
+
+Console.WriteLine("Введите возраст: ");
+int age = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите рост: ");
+double height = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Введите размер зарплаты ");
+decimal salary = Convert.ToDecimal(Console.ReadLine());
+
+Console.WriteLine($"Имя: {name} Возраст: {age} Рост: {height} Зарплата: {salary}");
+*/
+
+
